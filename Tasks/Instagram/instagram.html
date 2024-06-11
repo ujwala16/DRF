@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in . Instagram</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <style>
+        .m1{
+            margin-left: 350px;
+            margin-top: 50px;
+        }
+        .m2{
+            margin-left: 200px;
+            margin-top: -580px;
+        }
+        h1{
+            font-weight: 900;
+            font-family: "lobster Two",sans-serif;
+            margin-left: 80px;
+        }
+       .f1{
+        border: 1px solid lightgrey;
+        width:330px;
+        margin-left: 550px;
+        padding: 15px;
+       }
+       input{
+        padding:12px;
+        width:270px;
+        border-radius: 4px;
+        margin-top: 5px;
+        margin-left: 15px;
+        border: 1px solid lightgrey;
+        background-color: rgb(255, 253, 253);
+        font-size: small;
+       }
+       .in1{
+        margin-top: 25px;
+       }
+       .btn-login{
+        border: none;
+        color: #fff;
+        background-color:rgb(87, 197, 248);
+        margin-left: 15px;
+        border-radius: 5px;
+        margin-top: 10px;
+        width:295px;
+        padding: 10px;
+        font-weight: 600;
+       }
+       .l1{
+        text-decoration: none;
+        color: navy;
+        margin-left: 100px;
+       }
+       .l2{
+        text-decoration: none;
+        margin-left: 100px;
+        color: black;
+        font-size: 14px;
+       }
+       fieldset{
+        text-align:center;
+        border: none;
+        border-top: 1px solid lightgrey;
+       }
+       .f2{
+        border: 1px solid lightgrey;
+        width:350px;
+        margin-left: 550px;
+        margin-top: 10px;
+        padding: 4px;
+       }
+       .p1{
+        margin-left: 70px;
+       }
+       .s1{
+        text-decoration: none;
+        color: #0866ff;
+       }
+       .f3{
+        margin-left: 700px;
+       }
+       .f4{
+        margin-left: 600px;
+       }
+       .i1{
+        height:40px;
+        width:130px;
+       }
+       .i2{
+        height:40px;
+        width:130px;
+       }
+       
+    </style>
+</head>
+<body>
+    <div class="m1">
+        <img src="picture.png" height="600px" width="300px">
+    </div>
+    <div class="m2">
+    <div class="f1">
+        <h1>Instagram</h1>
+        <form>
+            <input type="text"  class="in1" placeholder="Phone number, username or email address">
+            <br>
+            <input type="password" placeholder="Password">
+            <br>
+            <button type="button" class="btn-login">Log in</button>
+            <br><br>
+            <fieldset>
+                <legend>&nbsp; OR &nbsp;</legend>
+            </fieldset>
+            <br>
+            <a href="" class="l1"><span><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMwAAADACAMAAAB/Pny7AAAAYFBMVEU6VZ////80UZ309vqToMfM0uQyT5xbcK0uTZyXpMu5wNna3eni5fB0hLdida5SaqogRJjq7PRNZaehq80oSZpAW6NqfbN7i7qwudW+xdzGzeERPJRIYKSpss+LmcTU2OfuBL5hAAAC6klEQVR4nO3c23KrIACFYYuKxmM8RGu2ie//lm3vOtNNQDLA0ln/fWf4xgNGsFHEGGOMMcYYY4wxxtj5EkLmL5Khx2eaGK+juPXZVKubbqFHaVR+jebHZ7Hct7JS1qWtCD1QbfJfPhdbF3/oqjL0Ey2X02IAOQImF3VqBDkARtaLMQUbI0RTdDssyBhxe5Z7KMgYuQ67DgsyRrafZrewA2DEZH4TQ8fIZuflAoyR62ZhAcWMe2YXcMz1YWWBxIyJnQURk9d75xdcjOzvlhZATPTcPVnCYkRrMVuiYvKL9YGBw8jMarrExIyDvQUNI+xvZXiYvLa/YuAw0TtnGRjmvbMMDTPZPskAYqLknUvmo4PC3ArDYcfVlv6t6IHeNYvV7FGmHOYma//Whwb8TvQmv/y7pI+klOI/hQb8TrSVwWHJJNSglTV6TNrnoUdpltT/xiyng1giOevuzPEl9BiNk9ppJs2Ocb18J3SYeDjGEuxPWkw3H+bA6DHVYS5/A8zWID18vU6LSaGeJF9HDGrEoEYMasSgRgxqxKBGDGrEoEYMasQETvnZyKjHjK8+OfH/Uk2s80VRotsAWA2J6m9/arxrpMG6hWVP768I7TbGGjWfCFNN3m8P7jCb//UOd5i7/5Vzd5jCN8Ul5uF/nnGHGU6EiZ/+n3WcYar5RJhyOtFpFmCacYe5ryfCLLfzYOJHgA0PzjAhttW4wnTPALs3XGGq+kyYELs3XGG29kSYJcQ+YEeY+HP1b3GGGQJYnGGSEPvqXGH8v2dyh+nqE2HKIJsEHWHuIaYZV5giwA8AZ5gA75kiZ6sAjzEERrRDoUr39Wy3KP80yJ35O+XK11X3wXnaXg/zj9q0HzYArmkqO+ICrTJiUCMGNWJQIwY1YlAjBjViUCMGNWJQIwY1YlAjBjViUCMGNWJQIwY1YlAjBjViUCMGNWJQIwY1YlAjBjViUCMGNWJQIwY1YlAjBjViUCMGNWJQIwY155gvTt5IUAsJbbkAAAAASUVORK5CYII=" height="13px" width="13px"></span> Log in with Facebook</a>
+            <br><br>
+            <a href="" class="l2">Forgotten your password?</a>
+        </form>
+    </div>
+        <div class="f2">
+        <p class="p1">Don't have an account? <a href="" class="s1">Sign up</a></p>
+        </div>
+        <div class="f3">
+        <p class="p2">Get the app</p>
+       </div>
+       <div class="f4">
+        <img src="https://static.cdninstagram.com/rsrc.php/v3/yz/r/c5Rp7Ym-Klz.png" class="i1">
+        <span><img src="https://static.cdninstagram.com/rsrc.php/v3/yu/r/EHY6QnZYdNX.png" class="i2"></span>
+        
+       </div>
+       </div>
+</body>
+</html>

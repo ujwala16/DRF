@@ -1,0 +1,22 @@
+body{
+    background-color: #64c2f8;
+    font-size: larger;
+}
+h2{
+    text-align: center;
+    color: maroon;
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  td {
+    padding: 10px; 
+}
+button{
+    display: block; 
+    margin: 0 auto;
+    background-color: rgb(148, 247, 247);
+    border-radius: 3px;
+    font-size:medium;
+}

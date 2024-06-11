@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mate:ital@0;1&family=Sedan+SC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mate:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+    <title>Register</title>
+    <style>
+        body{
+            overflow-x: hidden;
+        }
+        .head{
+        display:flex;
+        width:100%;
+        background-color:black;
+        position: fixed;
+        top:0px;
+        z-index:10;
+    }
+    .btn{
+        height:50px;
+        width:200px;
+        background-color:#FF7D29;;
+        position: absolute;
+        top:25px;
+        left:1100px;
+        font-size:20px;
+        border:none;
+        border-radius: 15px;
+        font-family: "Sedan SC", serif;
+    }
+    .reg-btn{
+        text-decoration:none;
+        color: black;
+        font-family: "Sedan SC", serif;
+    }
+    h1{
+        position:absolute;
+        top:5px;
+        color:#FF7D29;
+    }
+    h2{
+        color: #FF7D29;
+        font-family: "Sedan SC", serif;
+    }
+    .subnav{
+        position: absolute;
+        left:500px;
+        top:40px;
+    }
+    .anchor{
+        color: #FF7D29;
+        font-weight:900px;
+        font-size:20px;
+        padding:19px;
+        position: relative;
+        left:-60px;
+        text-decoration: none;
+        font-family: "Sedan SC", serif;
+    }
+        body {
+            background-image: url("images/lucky-draw.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 100vh;
+            display: flex; 
+            justify-content:left; 
+            
+        }
+        .register {
+            width: 250px;
+            height: 250px;
+            padding: 20px;
+            position: absolute;
+            left:520px;
+            top:200px;
+            background: rgba(255, 255, 255, 0.5); 
+            border-radius: 10px; 
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
+            text-align: center; 
+        }
+        input {
+            padding: 12px;
+            width: 220px;
+            border-radius: 4px;
+            margin-top:4px;
+            border: 1px solid lightgrey;
+            background: rgba(255, 255, 255, 0.5); 
+            font-size: small;
+            font-family: "Sedan SC", serif;
+        }
+        .btn-login {
+            border: none;
+            color: #fff;
+            background-color: rgb(255, 196, 0);
+            border-radius: 5px;
+            margin-top: 40px;
+            width: 100%;
+            padding: 10px;
+            font-weight: 600;
+            font-size: medium;
+            font-family: "Sedan SC", serif;
+        }
+        ::placeholder {
+            font-size: medium;
+        }
+        .footer{
+        position: relative;
+        top:600px;
+        padding:40px;
+        text-align: center;
+        background-color: black;
+        width:100%;
+        height: 300px;
+       }
+       .cont{
+        color:black;
+        font-size: medium;
+       }
+       p{
+        color: #fff;
+        font-weight: 900;
+        font-size: 20px;
+        font-family: "Sedan SC", serif;
+       }
+       i{
+        padding-left: 15px;
+        color:rgb(255, 196, 0);
+       }
+       .anchor:hover{
+            color: #FFBF78;
+        }
+        
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="head">
+            <img src="images/logo.png"height="100px"width="auto" alt="logo">
+            <span><h1>COLLEGE<br>FEST</h1></span>
+        <div class="subnav">
+            <a class="anchor"href="event.html">EVENTS</a>
+            <a class="anchor" href="sponsers.html">SPONSORS</a>
+            <a class="anchor"href="aboutus.html">ABOUT COLLEGEFEST</a>
+            <a class="anchor"href="blog.html">BLOG</a>
+        </div>
+        <button class="btn"><a class="reg-btn" href="register.html">GRAB IT!</a></button>
+        </div>
+    </nav>
+    
+    <div class="register">
+    <form >
+        <h2>Hurry Register!!</h2>
+        <input type="text" placeholder="Sweet Name">
+        <br>
+        <input type="text" placeholder="Roll number">
+        <br>
+        <input type="text" placeholder="Phone Number">
+        <br>
+        <input type="text" placeholder="Branch name">
+        <br>
+        <button class="btn-login">Register</button>
+    </form>
+</div>
+
+<div class="footer">
+    <img src="images/logo.png" alt="logo">
+    <p class="foot"> Copyright &#169; 2024 CollegeFest, LLC. All Rights Reserved. Send Inquires <a href="" style="color:orange;">To info@collegefest.com</a> </p>
+    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+    <a href=""><i class="fa-brands fa-twitter"></i></a>
+    <a href=""><i class="fa-brands fa-instagram"></i></a>
+</div>
+</body>
+</html>

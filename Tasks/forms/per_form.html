@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal details Form</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <form>
+        <h2>PERSONAL DETAILS</h2>
+        <table>
+            <tr>
+                <td><label>Username:</label></td>
+                <td><input type="text" placeholder="Username" required></td>
+            </tr>
+            <tr>
+                <td><label>Phone Number:</label></td>
+                <td><input type="text" placeholder="+91xxxxx" pattern="+91[0-9]{10}" title="enter with +91 and 10 digits of Number" required></td>
+            </tr>
+            <tr>
+                <td><label>Email:</label></td>
+                <td><input type="email" placeholder="John@gmail.com" required></td>
+            </tr>
+            <tr>
+                <td><label>Date Of Birth:</label></td>
+                <td><input type="date"></td>
+            </tr>
+            <tr>
+                <td><label>Gender:</label></td>
+                <td>
+                    <input type="radio" name="Gender" value="Male">Male
+                    <input type="radio" name="Gender" value="Female">Female
+                    <input type="radio" name="Gender" value="Prefer not to say">Prefer not to say
+                </td>
+            </tr>
+        </table>
+        <button type="submit" id="btn">Submit</button>
+        </form>
+</body>
+</html>

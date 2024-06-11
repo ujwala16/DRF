@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+    <style>
+        nav {
+            display: flex;
+            position:fixed;
+            top: 0px;
+            background-color: #fff;
+            z-index:10;
+            width:100%;
+            padding:15px;
+        }
+        .header p{
+            margin-top: -1px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+        input{
+            margin-left: 220px;
+            width: 550px;
+            border: 1px solid lightgray;
+            padding: 10px;
+            border-top-left-radius: 15px;
+            border-bottom-left-radius: 15px;
+        }
+        ::placeholder{
+            font-size: 15px;
+        }
+        .search-icon{
+          padding:10px;
+          width:60px;
+          border: 1px solid lightgray;
+          border-top-right-radius: 15px;
+          border-bottom-right-radius: 15px;
+        }
+        .content{
+            width: 250px; 
+            height: 600px;
+            overflow-x: hidden;
+            position: fixed;
+            border: none;
+            top:90px;
+        }
+        .tab{
+         position: absolute;
+         top:50px;
+         left:300px;
+        }
+        .videoiframe{
+            width:350px;
+            height:200px;
+            border-radius: 20px;
+        }
+        td{
+            padding:15px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <i class="fa-solid fa-bars" style="font-size: 24px; margin-left: 20px;"></i>
+        <i class="fa-brands fa-youtube fa-2x" style="color: #f70808; margin-left: 30px;"></i>
+        <p><b>YouTube</b><sup>IN</sup></p>
+        <input type="text" placeholder="Search">
+        <button class="search-icon">
+        <i class="fa-solid fa-magnifying-glass"></i>
+       </button>
+       <i class="fa-solid fa-circle" style="color: #f1f0f0; font-size: 40px; margin-left: 20px; margin-top:3px;"></i>
+       <i class="fa-solid fa-microphone" style="font-size: 20px; margin-left:-28px; margin-top:13px;"></i>
+       <i class="fa-solid fa-video" style="margin-left: 250px; margin-top: 12px;"></i>
+       <i class="fa-regular fa-bell" style="font-size: 20px; margin-left: 50px; margin-top: 12px;"></i>
+       <i class="fa-solid fa-circle" style="color: #f1f0f0; font-size: 40px; margin-left: 20px; margin-top:3px;"></i>
+       <i class="fa-solid fa-user" style="margin-left: -25px; margin-top: 15px;"></i>
+  </nav>
+  <iframe class="content" src="content.html"></iframe>
+  <div class="tab">
+    <table>
+        <tr>
+            <td> <iframe class="videoiframe"  src="https://www.youtube.com/embed/HVjjoMvutj4?si=PZAyv80gzEWXLrAk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br><b>Full Stack web development in 24 hours</b></td>
+        <td> <iframe class="videoiframe"  src="https://www.youtube.com/embed/sXSYTUqFGVQ?si=AdzKzUwxc84QIpZ1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br><b>How start coding in college?</b></td>
+        <td> <iframe class="videoiframe" src="https://www.youtube.com/embed/bT70Qqgn-qY?si=4p43cuYPySuI0i06" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br><b>How to start coding?</b></td>
+        </tr>
+        <tr>
+            <td> <iframe class="videoiframe" src="https://www.youtube.com/embed/G4st5-0LYso?si=LbI5VUFDX1GU1UOG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br> <b>How to crack aptitude round of any company?</b></td>
+        <td> <iframe class="videoiframe"  src="https://www.youtube.com/embed/lhNzMh4U2o8?si=k6d34nPjrucpjWSf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> <br> <b> Accenture company question paper solved </b></td>
+        <td> <iframe class="videoiframe" src="https://www.youtube.com/embed/pFUPw5LvtGM?si=G4aHEasN8YruG_nG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br> <b> Accenture Communication Assessment</b></td>
+        </tr>
+        <tr>
+            <td> <iframe class="videoiframe"  src="https://www.youtube.com/embed/2aSh2SWi904?si=wdy3HLsaBdO7PdSV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br> <b>5 Important reasoning questions</b></td>
+        <td> <iframe class="videoiframe"  src="https://www.youtube.com/embed/PeLUgYSRPRs?si=lfagY647S882hCvG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br> <b> Coding and decoding reasoning questions</b></td>
+        <td> <iframe class="videoiframe"  src="https://www.youtube.com/embed/liVGdHJ_SR8?si=Wczx096R_dl00Nut" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br> <b> Number Analogy Trick</b></td>
+        </tr>
+        <tr>
+            <td> <iframe class="videoiframe"    src="https://www.youtube.com/embed/bWPMSSsVdPk?si=gEdXjUHNwMzd-9tb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> <br> <b> Learn HTML in 12 minutes</b></td>
+        <td> <iframe class="videoiframe"  src="https://www.youtube.com/embed/dTp0c41XnrQ?si=tk9evwv-AmpDbP9e" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> <br> <b> Learn C language in 10 minutes</b></td>
+        <td>  <iframe class="videoiframe"   src="https://www.youtube.com/embed/AZtL5iy_KVE?si=plMf_R0ng79z1t29" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><br> <b> Good Handwriting in 5 minutes</b></td>
+        </tr>
+        
+    </table>
+  </div>
+</body>
+</html>

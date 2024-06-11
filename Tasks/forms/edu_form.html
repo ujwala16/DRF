@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>educational details form</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <form>
+        <h2>EDUCATION DETAILS</h2>
+        <table>
+            <tr>
+                <td><label>RegNo:</label></td>
+                <td><input type="text" placeholder="20NM1xxx" required></td>
+            </tr>
+            <tr>
+                <td><label>Branch:</label></td>
+                <td>
+                    <input list="branch" name="branch">
+                    <datalist id="branch">
+                        <option value="CSE">
+                        <option value="IT">
+                        <option value="ECE">
+                        <option value="EEE">
+                        <option value="Mech">
+                        <option value="Civil">
+                    </datalist>
+                </td>
+            </tr>
+            <tr>
+                <td><label>CGPA:</label></td>
+                <td><input type="text" placeholder="ex: 7.5" pattern="[0-9]" title="Enter a valid CGPA" required></td>
+            </tr>
+            <tr>
+                <td><label>Skills:</label></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="checkbox" name="skills" value="HTML">HTML<br>
+                    <input type="checkbox" name="skills" value="CSS">CSS<br>
+                    <input type="checkbox" name="skills" value="Javascript">Javascript<br>
+                    <input type="checkbox" name="skills" value="Python">Python<br>
+                    <input type="checkbox" name="skills" value="Others">Others
+                </td>
+            </tr>
+            <tr><td>Upload Resume</td>
+                <td><input type="file"></td></tr>
+        </table>
+        <button type="submit" id="btn">Submit</button>
+    </form>
+</body>
+</html>

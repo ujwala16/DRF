@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown</title>
+    <style>
+        .nav-item{
+            display: inline;
+            margin-left: 30px;
+        }
+        .dropdown-menu{
+            display: none;
+        }
+        nav{
+            background-color: aqua;
+            padding:15px;
+        }
+        a{
+            text-decoration: none;
+            color:#fff;
+            font-weight:900;
+        }
+        .dropdown-menu{
+            position: absolute;
+            z-index: 10;
+            left:220px;
+            background-color: aqua;
+            padding: 50px;
+        }
+        .dropdown:hover .dropdown-menu{
+            display: block;
+        }
+        .dropdown .dropitem{
+            list-style-type: none;
+            color: #fff;
+        }
+        
+    </style>
+</head>
+<body>
+    <nav>
+        <li class="nav-item"><a href="">Home</a></li>
+        <li class="nav-item"><a href="">About</a></li>
+        <li class="nav-item dropdown"><a href="">Services<i class="fa fa-caret-down"></i></a>
+            <ul class="dropdown-menu">
+                <li class="dropitem">FSD</li>
+                <li class="dropitem">DS</li>
+                <li class="dropitem">SOLAR</li>
+                <li class="dropitem">PYTHON</li>
+                <li class="dropitem">SQL</li>
+            </ul>
+        </li>
+        <li class="nav-item dropdown"><a href="">Contact Us<i class="fa fa-caret-down"></i></a>
+            <ul class="dropdown-menu">
+                <li class="dropitem">Email</li>
+                <li class="dropitem">Phone number</li>
+                <li class="dropitem">Linkedin</li>
+                <li class="dropitem">Instagram</li>
+                <li class="dropitem">Twitter</li>
+            </ul>
+        </li>
+        <li class="nav-item"><a href="">HELP</a></li>
+    </nav>
+</body>
+</html>
